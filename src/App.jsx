@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/Header'
+import Header from './components/Header';
+import IntroBg from './animations/introBg';
 
 function App() {
 
   return (
     <div className="bg-[#ffffff]">
       <Header/>
+      <IntroBg/>
     </div>
   )
 }
