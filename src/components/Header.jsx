@@ -23,7 +23,7 @@ const Header = () => {
     }, [currectTheme]);
 
     return (
-        <nav className="bg-gray-50 flex justify-between items-center px-12 py-5 shadow-sm dark:bg-[#1f1f1f]">
+        <nav className="bg-[#ffffff] flex justify-between items-center px-12 py-2 shadow-sm dark:bg-[#1f1f1f]">
             <button onClick={changeTheme} className="cursor-pointer"><MdLightMode size={30} style={{ fill: currectTheme === 'dark' ? 'white' : 'black'}}/></button>
             <div className="space-x-6 text-lg">
                 <button className="border-b-2 pb-2 text-[#6970E4] font-[600] dark:text-[#ffffff]">About Me</button>
