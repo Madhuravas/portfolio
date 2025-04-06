@@ -42,7 +42,7 @@ export default function Intro() {
     <>
       <IntroBg />
       <div className="bg-[#F8F9FA] dark:bg-base-200 px-20 py-10 flex">
-        <div  ref={ref} className={`shadow-lg px-10 bg-base-100 rounded py-6 w-[50%] mr-5 transition-all duration-700 ease-in-out transform ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+        <div ref={ref} className={`shadow-lg px-10 bg-base-100 rounded py-6 w-[50%] mr-5 transition-all duration-700 ease-in-out transform ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
           }`}>
           <h2 className="text-3xl font-bold">Madhuravas</h2>
           <h4 className="text-xl font-[500] mb-3 mt-1">MERN Stack Developer</h4>

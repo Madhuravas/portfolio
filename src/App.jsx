@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import Header from './components/Header';
-import IntroBg from './animations/introBg';
 import Intro from './components/intro';
+import Stepper from './components/Experience';
 
 function App() {
-
+  
+   
   return (
     <div className="bg-[#ffffff]">
       <Header/>
       <Intro/>
+      <Stepper/>
     </div>
   )
 }
