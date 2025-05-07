@@ -1,15 +1,15 @@
 import Header from './components/Header';
 import Intro from './components/intro';
-import Stepper from './components/Experience';
+import Projects from './components/Projects';
 
 function App() {
   
    
   return (
-    <div className="bg-[#ffffff]">
-      <Header/>
-      <Intro/>
-      <Stepper/>
+    <div className='bg-[#F8F9FA] dark:bg-[#080e21]'>
+      <Header />
+      <Intro />
+      <Projects />
     </div>
   )
 }
